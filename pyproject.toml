@@ -1,0 +1,20 @@
+[project]
+name = "journeo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "abdulrehman104", email = "abdulreehman104@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.6.0",
+    "openai-agents>=0.1.0",
+]
+
+[project.scripts]
+journeo = "journeo:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
